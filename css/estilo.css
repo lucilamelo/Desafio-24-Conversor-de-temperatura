@@ -1,0 +1,80 @@
+body {
+    background-color: #ffffff;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main {
+    background-color: rgb(206, 214, 131);
+    padding: 15px;
+    text-align: center;
+}
+
+#c {
+    text-align: left;
+}
+
+.conteudo {
+    padding: 25px;
+    align-items: center;    
+}
+
+h3 {
+    color: rgb(75, 77, 80);
+}
+
+.content {
+    padding: 25px;
+    align-content: space-around;
+    border: 1px solid; 
+    border-radius: 15px;   
+    background-color: rgb(194, 211, 204);
+}
+
+.content h3 {
+    color: #000000;
+}
+
+.conversor_de_temperatura {
+    display: flex;
+    text-align: justify;
+}
+
+.celsius,
+.fahrenheit {
+    padding-right: 25px;
+}
+
+.celsius h3,
+.fahrenheit h3,
+.kelvin h3 {
+    text-align: center;
+}
+
+.footer{
+    background-color:rgb(194, 211, 204) ;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    width: 100%;    
+}
+
+@media (max-width: 500px) {
+    .conversor_de_temperatura {
+        display: grid;
+        text-align: justify;
+    }
+
+.celsius,
+.fahrenheit {
+    padding-right: 0px;
+}
+    
+}
